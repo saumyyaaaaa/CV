@@ -1,2 +1,2 @@
 # CV
-My first solo project on HTML.
+My first solo project using HTML.
