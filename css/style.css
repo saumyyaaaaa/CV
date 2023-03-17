@@ -1,0 +1,28 @@
+/* Syntax: selector{property:value;} */
+/* class Selector (.) */
+/* id Selector (#) */
+/* class and id selectors hold greater priority than simple selectors */
+/* A Class name can be used by multiple HTML elements, while an ID name must only be used by one HTML element within the page. */
+
+body{
+    /* Inline CSS > Internal CSS > External CSS */
+     background-color: #EAF6F6;
+}
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+hr{
+    /* When one value is specified, it applies the same style to all four sides.
+       When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+       When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+       When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise). */
+
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
